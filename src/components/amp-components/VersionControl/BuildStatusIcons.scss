@@ -1,0 +1,20 @@
+@import "style/index.scss";
+
+.ant-card {
+  & .application-list-item__row{
+    font-size: 18px;
+  }
+}
+.build-status-icons {
+  &__status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: var(--large-spacing);
+    .amp-icon {
+      color: var(--black80);
+      margin-left: var(--default-spacing);
+      font-size: 20px; 
+    }
+  }
+}

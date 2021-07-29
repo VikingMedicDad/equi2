@@ -1,0 +1,13 @@
+@import "style/index.scss";
+
+.inner-app-layout{
+  min-height: 82vh;
+}
+.main-content, .side-content{
+  height:82vh;
+  overflow-y:scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 1px;
+}

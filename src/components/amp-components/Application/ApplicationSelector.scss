@@ -1,0 +1,10 @@
+@import "style/index.scss";
+
+.application-selector{
+  &__current__icon{
+    font-size: 20px;
+  }
+}
+.applications-selector__list__item{
+  margin-bottom: 20px;
+}

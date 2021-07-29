@@ -1,0 +1,17 @@
+@import "style/index.scss";
+
+.workspaces-selector{
+  // &__current__name{
+  //   font-weight: 500;
+  //   color: #1a3353;
+  //   align-items: center;
+  //   height: 40px;
+  //   font-size: 14px;
+  // }
+  &__current__icon{
+    font-size: 20px;
+  }
+}
+.workspaces-selector__list__item{
+  margin-bottom: 20px;
+}
